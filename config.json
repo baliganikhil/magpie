@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "project_name": "myproj",
+    "target_folder": "dst",
+
+    "client": {
+        "framework": "angular",
+        "package_manager": "yarn"
+    },
+
+    "server": {
+        "language": "nodejs",
+        "framework": "express"
+    },
+
+    "storage": {
+        "db": "mongodb",
+        "replication": {}
+    },
+
+    "container": {} ,
+
+    "cloud": {
+        "aws": {
+
+        }
+    },
+
+    "source_control": {
+
+    }
+}
