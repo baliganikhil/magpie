@@ -94,6 +94,13 @@
             ]
         },
         {
+            "name": "Python: Magpie",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/magpie.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Python: All debug Options",
             "type": "python",
             "request": "launch",

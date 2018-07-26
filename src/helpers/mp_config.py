@@ -7,14 +7,18 @@ class MagpieConfigHandler:
     magpie_config = {}
 
     def __init__(self, config_path):
-        logging.info("Starting Magpie Config Handler")
+        logging.info('Starting Magpie Config Handler')
         self.load_config(config_path)
         self.config_path = config_path
-        pass
 
     def load_config(self, config_path):
+        logging.info('Loading config from config path')
         try:
             config_file = open(config_path, 'r')
             self.magpie_config = json.load(config_file)
         except:
             show_error('Could not load the config file: %s' % (config_path) )
+
+    def get_config(self):
+        logging.info('Getting config')
+        return self.magpie_config
