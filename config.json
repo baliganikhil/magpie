@@ -10,7 +10,8 @@
 
     "server": {
         "language": "nodejs",
-        "framework": "express-serverless"
+        "framework": "aws-serverless-express",
+        "version": "*"
     },
 
     "storage": {

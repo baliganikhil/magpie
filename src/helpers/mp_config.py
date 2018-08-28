@@ -6,6 +6,13 @@ class MagpieConfigHandler:
     config_path = ''
     magpie_config = {}
 
+    KEY_TARGET_FOLDER = 'target_folder'
+    KEY_SERVER = 'server'
+    KEY_LANGUAGE = 'language'
+    KEY_FRAMEWORK = 'framework'
+
+    LANG_NODEJS = 'nodejs'
+
     def __init__(self, config_path):
         logging.info('Starting Magpie Config Handler')
         self.load_config(config_path)
