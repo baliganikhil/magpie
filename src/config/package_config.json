@@ -1,0 +1,12 @@
+{
+  "nodejs": {
+    "storage": {
+      "mongodb": {
+        "mongoose": "^4.10.2",
+        "mongoose-pagination": "^1.0.0",
+        "mongoose-shortid-nodeps": "^0.6.5",
+        "mongoose-validator": "^1.2.5"
+      }
+    }
+  }
+}

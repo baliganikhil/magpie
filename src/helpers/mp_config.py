@@ -10,8 +10,12 @@ class MagpieConfigHandler:
     KEY_SERVER = 'server'
     KEY_LANGUAGE = 'language'
     KEY_FRAMEWORK = 'framework'
+    KEY_STORAGE = 'storage'
+    KEY_DB = 'db'
 
     LANG_NODEJS = 'nodejs'
+
+    DB_MONGODB = 'mongodb'
 
     def __init__(self, config_path):
         logging.info('Starting Magpie Config Handler')

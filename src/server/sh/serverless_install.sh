@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 target_folder=$1
 aws_serverless_package_name=$2
@@ -24,4 +24,7 @@ echo Installing AWS Serverless Express...
 # mv aws-serverless-express/examples/basic-starter/* .
 # npm install
 
-npm install --save-dev nodemon
+#npm install --save-dev nodemon
+
+mkdir -v models
+mkdir -v routes
