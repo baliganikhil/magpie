@@ -1,7 +1,7 @@
 {
     "version": 1,
     "project_name": "myproj",
-    "target_folder": "dst",
+    "target_folder": "/Users/nik/dst",
 
     "client": {
         "framework": "angular",
@@ -10,7 +10,8 @@
 
     "server": {
         "language": "nodejs",
-        "framework": "express"
+        "framework": "aws-serverless-express",
+        "version": "*"
     },
 
     "storage": {
