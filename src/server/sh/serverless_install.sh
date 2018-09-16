@@ -17,14 +17,14 @@ cd $target_folder
 mkdir node_modules
 
 echo Installing AWS Serverless Express...
-# npm install aws-serverless-express --save
+npm install aws-serverless-express --save
 
-# git clone https://github.com/awslabs/aws-serverless-express.git
-# rm -rf aws-serverless-express
-# mv aws-serverless-express/examples/basic-starter/* .
-# npm install
+git clone https://github.com/awslabs/aws-serverless-express.git
+mv aws-serverless-express/examples/basic-starter/* .
+npm install
+rm -rf aws-serverless-express
 
-#npm install --save-dev nodemon
+npm install --save-dev nodemon
 
 mkdir -v models
 mkdir -v routes

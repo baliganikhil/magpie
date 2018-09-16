@@ -29,9 +29,9 @@ class MagpieProjectHandler:
         logging.info("Adding MongoDB connection info for NodeJS app")
         filename = os.path.join(self.magpie_config_utils.getTargetFolder(), 'app.js')
 
-        mongoose_import_line = "var mongoose = require(mongoose);"
+        mongoose_import_line = "var mongoose = require('mongoose');"
         mongoose_conn_line = '''
-            mongo_connection_url = "mongodb://localhost:27017";
+            var mongo_connection_url = "mongodb://localhost:27017";
             mongoose.connect(process.env.MONGO_URL || mongo_connection_url);
         '''
 
