@@ -34,4 +34,3 @@ class MapgieFileHandler:
             # Target does not exist
             logging.info('Target %s does not exist. Creating...' % target_folder_path)
             os.makedirs(target_folder_path)
-            pass

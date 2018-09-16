@@ -28,3 +28,4 @@ echo Installing AWS Serverless Express...
 
 mkdir -v models
 mkdir -v routes
+mkdir -v services
